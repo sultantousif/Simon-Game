@@ -27,13 +27,18 @@ body {
 }
 
 .btnStart {
-  margin: 25px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  color: white; 
+  margin: 5px;
+  padding-top: 25px;
   display: inline-block;
-  height: 30px;
-  width: 70px;
+  height: 60px;
+  width: 100%;
   border: 10px solid black;
   border-radius: 20%;
   background-color: blueviolet;
+  text-align: center;
 }
 
 .game-over {
