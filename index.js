@@ -15,6 +15,24 @@ $(document).keypress(function() {
 
 });
 
+$(".btnStart").click(function() {
+  if (!started) {
+     $("#level-title").text("Level " + level);
+     nextSequence();
+     started = true;
+  }
+ 
+ });
+
+//  document.querySelector(".btnStart").addEventListener("click", function() {
+//   if (!started) {
+//     document.querySelector("#level-title").textContent = "Level " + level;
+//     nextSequence();
+//     started = true;
+//   }
+// });
+ 
+
 $(".btn").click(function() {
 
  var userChosenColour = $(this).attr("id");
